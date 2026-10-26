@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serenity Yoga Studio | Online Yoga Programs for Every Level</title>
+  <meta name="description" content="Serenity Yoga Studio offers online yoga programs in Asana, Pranayama, Kriya, Meditation and Karma Yoga Philosophy. Demo website for a university assignment.">
+  <meta name="theme-color" content="#1f3d2f">
+
+  <!-- Free Google Fonts. If they fail to load, the fallback fonts in style.css are used. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+
+  <!-- Inline SVG favicon so no extra file is needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231f3d2f'/%3E%3Cpath d='M32 50c-8 0-15-5-17-12 7 0 12 2 17 7 5-5 10-7 17-7-2 7-9 12-17 12zm0-9c-5-5-7-13 0-29 7 16 5 24 0 29z' fill='%23f3ecdf'/%3E%3C/svg%3E">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Serenity Yoga Studio, go to home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <rect width="64" height="64" rx="18" fill="currentColor"/>
+          <path d="M32 50c-8 0-15-5-17-12 7 0 12 2 17 7 5-5 10-7 17-7-2 7-9 12-17 12zm0-9c-5-5-7-13 0-29 7 16 5 24 0 29z" fill="#f3ecdf"/>
+        </svg>
+        <span class="brand-name">Serenity Yoga Studio</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="menu-bars" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#programs" class="nav-link">Programs</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta" data-preselect="package">Join Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Find your balance. Breathe into inner peace.</h1>
+          <p class="hero-lead">
+            Serenity Yoga Studio is an online yoga school for people who want to move better,
+            breathe deeper and think clearer. Learn at home, at your own pace, whether this is
+            your first class or your thousandth.
+          </p>
+          <div class="hero-actions">
+            <a href="#programs" class="btn btn-light">Explore Programs</a>
+            <a href="#contact" class="btn btn-outline-light">Start Your Journey</a>
+          </div>
+        </div>
+
+        <!-- Slow breathing guide: the one decorative animation on the page -->
+        <div class="breath" aria-hidden="true">
+          <div class="breath-ring breath-ring-3"></div>
+          <div class="breath-ring breath-ring-2"></div>
+          <div class="breath-ring breath-ring-1">
+            <span class="breath-in">Breathe in</span>
+            <span class="breath-out">Breathe out</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust strip -->
+      <div class="container">
+        <ul class="trust" aria-label="Studio at a glance">
+          <li><strong>5</strong><span>yoga programs</span></li>
+          <li><strong>1</strong><span>combined package</span></li>
+          <li><strong>3 to 6</strong><span>weeks per program</span></li>
+          <li><strong>₹299</strong><span>lowest program price</span></li>
+        </ul>
+        <p class="trust-note">Illustrative figures for this demo website, based on the programs and prices listed below. They are not independently verified business statistics.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media">
+          <figure class="arch">
+            <img
+              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=80"
+              alt="A person practising a yoga pose outdoors in calm morning light"
+              width="1000" height="1250" loading="lazy">
+          </figure>
+          <figure class="arch arch-small">
+            <img
+              src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=600&q=80"
+              alt="Hands resting in a seated meditation posture"
+              width="600" height="600" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="about-copy">
+          <h2 id="about-title">Yoga that meets you where you are</h2>
+          <p>
+            Serenity Yoga Studio is a demonstration online yoga business. We imagine a studio where
+            yoga and mindfulness feel welcoming to everyone, from complete beginners to people
+            returning to practice after a long break.
+          </p>
+
+          <div class="about-points">
+            <article>
+              <h3>Our mission</h3>
+              <p>Make yoga and mindfulness accessible to people with different experience levels, ages and schedules.</p>
+            </article>
+            <article>
+              <h3>Our approach to wellness</h3>
+              <p>We treat wellness as a whole: movement, breath, attention and values. Each program teaches one part and links it to the others.</p>
+            </article>
+          </div>
+
+          <h3 class="benefits-title">Benefits of regular practice</h3>
+          <ul class="benefits">
+            <li>Better flexibility, balance and posture</li>
+            <li>A calmer response to everyday stress</li>
+            <li>Improved focus and body awareness</li>
+            <li>A steadier daily routine and better rest</li>
+          </ul>
+          <p class="small-note">Yoga supports general wellbeing and is not a substitute for medical advice. Check with a doctor if you have a health condition.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMS ============ -->
+    <section class="section programs" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="programs-title">Yoga programs and services</h2>
+          <p>Five online programs, each with a clear focus. Start with one, or take them together in the complete package.</p>
+          <p class="small-note">All prices shown are illustrative program prices for this demo.</p>
+        </div>
+
+        <div class="program-grid">
+
+          <article class="card program-card" data-program="asana">
+            <div class="program-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v6m0 0l-4 7m4-7l4 7M6 10l6-2 6 2"/></svg>
+            </div>
+            <h3>Asana</h3>
+            <p>Learn yoga postures, improve flexibility, develop balance, and build body awareness.</p>
+            <dl class="program-meta">
+              <div><dt>Duration</dt><dd>6 weeks</dd></div>
+              <div><dt>Price</dt><dd class="price">₹499</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button type="button" class="btn btn-ghost" data-details="asana">View Details</button>
+              <a href="#contact" class="btn btn-primary" data-preselect="asana">Enroll Now</a>
+            </div>
+          </article>
+
+          <article class="card program-card" data-program="pranayama">
+            <div class="program-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h8"/></svg>
+            </div>
+            <h3>Pranayama</h3>
+            <p>Explore yogic breathing techniques that support relaxation and mindful breathing.</p>
+            <dl class="program-meta">
+              <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              <div><dt>Price</dt><dd class="price">₹399</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button type="button" class="btn btn-ghost" data-details="pranayama">View Details</button>
+              <a href="#contact" class="btn btn-primary" data-preselect="pranayama">Enroll Now</a>
+            </div>
+          </article>
+
+          <article class="card program-card" data-program="kriya">
+            <div class="program-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>
+            </div>
+            <h3>Kriya</h3>
+            <p>Learn about traditional yogic cleansing practices with appropriate guidance and safety considerations.</p>
+            <dl class="program-meta">
+              <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              <div><dt>Price</dt><dd class="price">₹599</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button type="button" class="btn btn-ghost" data-details="kriya">View Details</button>
+              <a href="#contact" class="btn btn-primary" data-preselect="kriya">Enroll Now</a>
+            </div>
+          </article>
+
+          <article class="card program-card" data-program="meditation">
+            <div class="program-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 20c-3 0-6-2-7-5 3 0 5 1 7 3 2-2 4-3 7-3-1 3-4 5-7 5zM12 17c-2-2-3-5 0-12 3 7 2 10 0 12z"/></svg>
+            </div>
+            <h3>Meditation</h3>
+            <p>Practice mindfulness, relaxation, and techniques for improving concentration.</p>
+            <dl class="program-meta">
+              <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              <div><dt>Price</dt><dd class="price">₹299</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button type="button" class="btn btn-ghost" data-details="meditation">View Details</button>
+              <a href="#contact" class="btn btn-primary" data-preselect="meditation">Enroll Now</a>
+            </div>
+          </article>
+
+          <article class="card program-card" data-program="karma">
+            <div class="program-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+            </div>
+            <h3>Karma Yoga Philosophy</h3>
+            <p>Explore the principles of selfless action, service, and personal growth through yoga philosophy.</p>
+            <dl class="program-meta">
+              <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              <div><dt>Price</dt><dd class="price">₹349</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button type="button" class="btn btn-ghost" data-details="karma">View Details</button>
+              <a href="#contact" class="btn btn-primary" data-preselect="karma">Enroll Now</a>
+            </div>
+          </article>
+
+          <!-- Sixth tile: points to the package so the grid feels complete -->
+          <article class="card program-card program-card-package">
+            <h3>Want all five?</h3>
+            <p>The Complete Yoga Package covers every program above and costs less than buying them one by one.</p>
+            <a href="#pricing" class="btn btn-light">See the package</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="pricing-title">Simple pricing in Indian rupees</h2>
+          <p>Pick one program or save with the complete package. Prices are illustrative sample prices for this demo.</p>
+        </div>
+
+        <div class="price-grid">
+          <article class="card price-card">
+            <h3>Single Program</h3>
+            <p class="price-lead">Choose any one program</p>
+            <ul class="price-list" aria-label="Individual program prices">
+              <li><span>Asana</span><strong>₹499</strong></li>
+              <li><span>Pranayama</span><strong>₹399</strong></li>
+              <li><span>Kriya</span><strong>₹599</strong></li>
+              <li><span>Meditation</span><strong>₹299</strong></li>
+              <li><span>Karma Yoga Philosophy</span><strong>₹349</strong></li>
+            </ul>
+            <ul class="includes" aria-label="What a single program includes">
+              <li>Online access to one program</li>
+              <li>Guided lessons you can follow at home</li>
+              <li>Beginner-friendly instructions</li>
+              <li>Enrollment inquiry support by email</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost" data-preselect="">Choose Plan</a>
+          </article>
+
+          <article class="card price-card price-card-featured">
+            <p class="badge">Best value</p>
+            <h3>Complete Yoga Package</h3>
+            <p class="price-big"><span class="rupee">₹1,499</span></p>
+            <p class="price-lead">All five programs together. Buying them separately would cost ₹2,145, so this package saves ₹646.</p>
+            <ul class="includes" aria-label="What the complete package includes">
+              <li>Asana, Pranayama, Kriya, Meditation and Karma Yoga Philosophy</li>
+              <li>A suggested learning order from beginner to deeper practice</li>
+              <li>Guided lessons you can follow at home</li>
+              <li>Beginner-friendly instructions throughout</li>
+              <li>Enrollment inquiry support by email</li>
+            </ul>
+            <a href="#contact" class="btn btn-light" data-preselect="package">Enroll Now</a>
+          </article>
+        </div>
+
+        <p class="small-note center">
+          This is a demo website. It does not process real payments. Choosing a plan takes you to the inquiry form below.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="why-title">Why choose Serenity Yoga Studio</h2>
+          <p>Practice that fits your life, not the other way around.</p>
+        </div>
+
+        <ul class="why-grid">
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21c4-3 7-6 7-10a7 7 0 0 0-14 0c0 4 3 7 7 10zM9 11c1 1.5 2 2 3 2s2-.5 3-2"/></svg></span>
+            <h3>Beginner-friendly learning</h3>
+            <p>Clear step-by-step guidance, with no prior experience or flexibility needed.</p>
+          </li>
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <h3>Flexible online learning</h3>
+            <p>Practise when it suits you, from a quiet corner of your home.</p>
+          </li>
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5"/></svg></span>
+            <h3>Multiple yoga practices</h3>
+            <p>Postures, breathing, cleansing practices, meditation and philosophy in one place.</p>
+          </li>
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></span>
+            <h3>Mindfulness and holistic wellness</h3>
+            <p>Body, breath and mind are taught together, not as separate topics.</p>
+          </li>
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h6"/><circle cx="18" cy="16" r="3"/></svg></span>
+            <h3>Accessible program options</h3>
+            <p>Programs start at ₹299, and the package lowers the cost of learning everything.</p>
+          </li>
+          <li>
+            <span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+            <h3>A simple enrollment process</h3>
+            <p>Pick a program, fill in one short form, and we get back to you about next steps.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="testimonials-title">What learners might say</h2>
+          <p class="sample-banner">Sample testimonials written for demonstration. These are not real customer reviews.</p>
+        </div>
+
+        <div class="quote-grid">
+          <figure class="quote">
+            <blockquote><p>I thought yoga was only for flexible people. The Asana lessons showed me how to start slowly and still feel progress.</p></blockquote>
+            <figcaption>
+              <strong>Sample learner A</strong>
+              <span>Beginner, Asana program</span>
+            </figcaption>
+          </figure>
+          <figure class="quote quote-raised">
+            <blockquote><p>The breathing practice fits into my lunch break. I come back to my desk calmer and more focused.</p></blockquote>
+            <figcaption>
+              <strong>Sample learner B</strong>
+              <span>Working professional, Pranayama program</span>
+            </figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>The philosophy lessons gave me a new way to think about everyday work and helping others.</p></blockquote>
+            <figcaption>
+              <strong>Sample learner C</strong>
+              <span>Student, Karma Yoga Philosophy program</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-wrap">
+        <div class="section-head left">
+          <h2 id="faq-title">Questions, answered</h2>
+          <p>Can't find what you need? Send us a message using the form below.</p>
+        </div>
+
+        <div class="accordion" id="accordion">
+          <div class="acc-item">
+            <h3>
+              <button class="acc-button" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+                Can beginners join?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <p>Yes. Every program starts from the basics and explains each step. You do not need to be flexible or have any earlier experience.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-button" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+                How do the online programs work?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <p>Each program runs for a set number of weeks and is made of short guided lessons. You follow them at home at your own pace. In this demo, the program structure is illustrative.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-button" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+                What equipment do I need?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <p>A yoga mat and comfortable clothes are enough. A folded blanket or cushion helps with seated practice, and a strap or a block is optional.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-button" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+                How do enrollment inquiries work?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <p>Choose a program in the inquiry form, add your details and send it. A real studio would reply with enrollment steps. On this demo site the form is checked in your browser only and is not sent anywhere.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-button" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+                Can I practise at home?
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <p>Yes. All programs are designed for home practice. You only need a clear space about the size of your mat and a quiet 20 to 30 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / ORDER ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 id="contact-title">Start with a short inquiry</h2>
+          <p>Tell us which program interests you and we will explain the next steps.</p>
+
+          <div class="demo-box" role="note">
+            <strong>Demo form</strong>
+            <p>This form validates your input in the browser. No backend is connected, so nothing you enter is stored or sent.</p>
+          </div>
+
+          <h3 class="info-title">Studio contact details</h3>
+          <p class="small-note">Placeholder details. Replace them with your own before submission.</p>
+          <ul class="info-list">
+            <li><span>Email</span> hello@your-studio-email.example</li>
+            <li><span>Phone</span> +91 00000 00000</li>
+            <li><span>Address</span> Your studio address, Bengaluru, Karnataka</li>
+            <li><span>Hours</span> Mon to Sat, 7:00 AM to 7:00 PM</li>
+          </ul>
+        </div>
+
+        <form class="card form" id="inquiryForm" novalidate aria-labelledby="contact-title">
+          <div class="field">
+            <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error" placeholder="Your full name">
+            <p class="error" id="name-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error" placeholder="you@example.com">
+            <p class="error" id="email-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" aria-describedby="phone-error" placeholder="+91 98765 43210">
+            <p class="error" id="phone-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="program">Yoga program <span class="req" aria-hidden="true">*</span></label>
+            <select id="program" name="program" required aria-describedby="program-error">
+              <option value="">Select a program</option>
+              <option value="asana">Asana, ₹499</option>
+              <option value="pranayama">Pranayama, ₹399</option>
+              <option value="kriya">Kriya, ₹599</option>
+              <option value="meditation">Meditation, ₹299</option>
+              <option value="karma">Karma Yoga Philosophy, ₹349</option>
+              <option value="package">Complete Yoga Package, ₹1,499</option>
+            </select>
+            <p class="error" id="program-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="4" required minlength="10" aria-describedby="message-error" placeholder="Tell us about your experience level and goals"></textarea>
+            <p class="error" id="message-error" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send Inquiry</button>
+
+          <div class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ DETAILS DIALOG (opened by "View Details") ============ -->
+  <dialog class="dialog" id="detailsDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-inner">
+      <button type="button" class="dialog-close" id="dialogClose" aria-label="Close details">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <h2 id="dialogTitle"></h2>
+      <p class="dialog-meta" id="dialogMeta"></p>
+      <p id="dialogDesc"></p>
+      <h3>What you will learn</h3>
+      <ul class="includes" id="dialogList"></ul>
+      <p class="small-note" id="dialogNote"></p>
+      <a href="#contact" class="btn btn-primary" id="dialogEnroll">Enroll Now</a>
+    </div>
+  </dialog>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand brand-light" aria-label="Serenity Yoga Studio, back to top">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <rect width="64" height="64" rx="18" fill="#f3ecdf"/>
+            <path d="M32 50c-8 0-15-5-17-12 7 0 12 2 17 7 5-5 10-7 17-7-2 7-9 12-17 12zm0-9c-5-5-7-13 0-29 7 16 5 24 0 29z" fill="#1f3d2f"/>
+          </svg>
+          <span class="brand-name">Serenity Yoga Studio</span>
+        </a>
+        <p>An online yoga studio for balance, breath and mindful living. This is a demo website made for a university assignment.</p>
+      </div>
+
+      <nav aria-label="Quick links">
+        <h2 class="footer-title">Quick links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Program links">
+        <h2 class="footer-title">Programs</h2>
+        <ul>
+          <li><button type="button" class="link-button" data-details="asana">Asana</button></li>
+          <li><button type="button" class="link-button" data-details="pranayama">Pranayama</button></li>
+          <li><button type="button" class="link-button" data-details="kriya">Kriya</button></li>
+          <li><button type="button" class="link-button" data-details="meditation">Meditation</button></li>
+          <li><button type="button" class="link-button" data-details="karma">Karma Yoga Philosophy</button></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="footer-title">Contact (placeholders)</h2>
+        <ul class="footer-contact">
+          <li>hello@your-studio-email.example</li>
+          <li>+91 00000 00000</li>
+          <li>Bengaluru, Karnataka</li>
+        </ul>
+        <h2 class="footer-title">Social (placeholders)</h2>
+        <ul class="footer-contact">
+          <li>Instagram: @your-handle</li>
+          <li>YouTube: your channel</li>
+          <li>Facebook: your page</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Serenity Yoga Studio. Demo website for the CIA–2 Yoga Website Development Activity. Prices are illustrative.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
